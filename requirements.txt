@@ -1,0 +1,11 @@
+# Runtime dependencies. Tkinter ships with Python (on Debian/Ubuntu: sudo apt install python3-tk).
+SpeechRecognition>=3.10      # voice input (Google Web Speech; needs internet)
+PyAudio>=0.2.13              # microphone access; not needed for --text
+pyttsx3>=2.90                # offline text-to-speech
+textblob>=0.17               # sentiment polarity blended into mood detection
+pyjokes>=0.6
+pywhatkit>=5.4               # "open youtube <title>"; falls back to a YouTube search page
+Pillow>=10.0                 # quote images and showing charts in the GUI
+matplotlib>=3.7              # mood chart
+pygame>=2.5                  # recommended: non-blocking, stoppable music playback
+playsound>=1.2.2             # last-resort music fallback (cannot be stopped early)

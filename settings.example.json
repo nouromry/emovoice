@@ -1,0 +1,14 @@
+{
+  "user_name": "",
+  "wake_words": ["emo"],
+  "stop_words": ["stop", "exit", "quit", "goodbye", "bye", "stop listening"],
+  "language": "en-US",
+  "speech_rate": 160,
+  "listen_timeout": 1.0,
+  "phrase_time_limit": 10.0,
+  "answer_timeout": 10.0,
+  "music_file": "calm.mp3",
+  "focus_minutes": 25,
+  "history_limit": 1000,
+  "open_images": true
+}
